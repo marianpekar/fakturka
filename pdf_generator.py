@@ -2,9 +2,10 @@ from fpdf import FPDF
 from qrplatba import QRPlatbaGenerator
 from os import remove
 from locale import setlocale, LC_ALL, format_string
+from invoice import Invoice
 
 class PdfGenerator:
-    def generate(self, invoice):
+    def generate(self, invoice: Invoice):
         setlocale(LC_ALL, "cs_CZ.UTF-8")
 
         pdf = FPDF()
