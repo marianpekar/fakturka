@@ -1,0 +1,35 @@
+Faktura ${RRRR}-${MM}
+
+DODAVATEL
+
+Jan Novák
+Vítězná 444/18
+123 00 Horní Lhota
+
+IČO = 12345678
+Neplátce DPH
+
+Bankovní účet = 123456789/0123
+Variabilní symbol = ${RRRRMM}
+Způsob platby = Převodem
+
+ODBĚRATEL
+
+Firma s.r.o.
+Poštovní 314/15
+123 01 Dolní Lhota
+
+IČO = 23456789
+
+Datum vystavení = ${DD.MM.RRRR}
+Datum splatnosti = ${DD.MM.RRRR+14}
+
+---
+
+Služba 1 = 100 000,00 Kč
+Vícepráce = 20 000,00 Kč
+
+---
+
+Fyzická osoba zapsaná v živnostenském rejstříku.
+=> example_${RRRRMM}.pdf
